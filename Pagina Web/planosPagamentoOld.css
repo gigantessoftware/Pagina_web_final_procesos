@@ -1,0 +1,49 @@
+.planos-pagamento{color:#FAEDC6;background-color:#3E8E7E}
+.planos-pagamento>.container{background-color:#fff;padding-bottom:57px;max-width:500px;width:96%;margin:10px auto;overflow:hidden}
+.planos-pagamento__titulo{
+    font-size:19px;
+    line-height:1.16;
+    text-align:center;
+    font-weight:600;
+    letter-spacing:-.4px;
+    width:253px;
+    padding-top:24px;
+    margin-bottom:40px;
+    margin:0 auto 23px}
+.planos-pagamento__titulo--bold{font-weight:800}
+.planosPagamento-vantagens{display:none}
+
+
+@media (min-width:768px){
+    .planosPagamento-vantagens{position:relative;display:block;padding-top:35px;padding-bottom:30px;margin-bottom:20px;background-color:#fff;border-top:1px solid rgba(107,170,255,.2);border-bottom:1px solid rgba(107,170,255,.2)}
+    .planosPagamento-vantagens .container{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:justify;justify-content:space-around}
+    .planosPagamento-vantagens-vantagem{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;align-items:center}
+    .planosPagamento-vantagens-vantagem img{display:inline-block;fill:#5e5e5e;-webkit-transform:scale(.8);transform:scale(.8);margin-right:10px}
+    .planosPagamento-vantagens-vantagem.acesso img{height:60px;width:60px}
+    .planosPagamento-vantagens-vantagem.horas img{height:60px;width:60px}
+    .planosPagamento-vantagens-vantagem.novos img{height:60px;width:60px}
+    .planosPagamento-vantagens-vantagem span{font-size:14px;line-height:normal;color:#6baaff}
+    .planosPagamento-vantagens-vantagem.acesso span{width:72px}
+    .planosPagamento-vantagens-vantagem.horas span{width:135px}
+    .planosPagamento-vantagens-vantagem.novos span{width:88px}}
+
+@media (min-width:900px){
+    .planos-pagamento__titulo{
+        padding-top:70px;
+        margin-bottom:50px;
+        text-align:center;
+        font-size:24px;
+        width:auto}
+    .planos-pagamento>.container{background-color:transparent;padding-top:50px;padding-bottom:70px;max-width:none;margin:0 auto;overflow:auto}
+    .planos-topo-fundo .planos-pagamento{background-color:transparent}}
+
+@media (min-width:1200px){
+    .planos-pagamento__titulo{font-size:29px}}
+
+@media (min-width:1280px){
+    .planosPagamento-vantagens{padding-top:40px;padding-bottom:34px}
+    .planosPagamento-vantagens-vantagem img{-webkit-transform:scale(1);transform:scale(1);margin-right:15px}
+    .planosPagamento-vantagens-vantagem span{font-size:15px}
+    .planosPagamento-vantagens-vantagem.acesso span{width:123px}
+    .planosPagamento-vantagens-vantagem.horas span{width:263px}
+    .planosPagamento-vantagens-vantagem.novos span{width:189px}}

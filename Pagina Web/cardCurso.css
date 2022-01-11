@@ -1,0 +1,133 @@
+.card-curso{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    padding:16px 31px 15px 20px;height:120px;
+    text-decoration:none;
+    box-shadow:1px 2px 11px 0 rgba(120,135,182,.1);
+    background-color:#FABB51;
+    border:solid 1px #FAEDC6;
+    -webkit-transition:all .3s ease;
+    transition:all .3s ease
+    }
+    
+.card-curso:hover{
+    -webkit-transform:translateY(2px);
+    transform:translateY(2px);
+    box-shadow:none
+    }
+
+.card-curso__icone{
+    height:54px;
+    width:40px;
+    margin-right:12px}
+    
+.card-curso__info{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    flex-direction:column}
+    
+.card-curso__nome{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-box-flex:2;
+    flex-grow:2;
+    -webkit-box-align:center;
+    align-items:center;
+    font-size:14px;
+    line-height:1.29;
+    color:#4a535a;
+    margin-bottom:5px}
+    
+.card-curso__carga{
+    font-size:11px;
+    line-height:1.82;
+    -webkit-box-flex:1;
+    flex-grow:1;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-box-align:end;
+    align-items:flex-end;
+    color:#4a535a}
+    
+.card-curso__label{font-weight:600}
+    
+.card-curso.card-curso--grande{height:auto;padding:20px 24px 20px 20px}
+    
+.card-curso--grande .card-curso__nome{margin-bottom:0}
+    
+.card-curso__chamadas{
+    font-size:13px;
+    list-style:none;
+    color:#4a535a;
+    margin:15px 0 15px calc(-40px - 12px);
+    padding-left:8px}
+    
+.card-curso__item{position:relative}
+    
+.card-curso--grande 
+
+.card-curso__icone{height:34px}
+    
+.card-curso--grande 
+
+.card-curso__nome{
+    min-height:36px;
+    -webkit-box-flex:0;
+    flex-grow:0}
+    
+.card-curso__item:before{
+    content:'•';
+    position:absolute;
+    height:100%;left:-8px}
+    
+.card-curso__item:not(:first-of-type){
+    margin-top:6px}
+    
+.card-curso--grande .card-curso__carga{
+    font-weight:600;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-box-pack:center;
+    justify-content:center;
+    margin-left:calc(-40px - 12px)}
+    
+@media(min-width:411px){
+    .card-curso--grande .card-curso__nome{min-height:auto}
+    .card-curso__chamadas{margin-left:0}       
+    .card-curso--grande .card-curso__carga{
+        margin-left:0;
+        -webkit-box-pack:start;
+        justify-content:flex-start}
+    }
+    
+@media(min-width:600px){
+    .card-curso.card-curso--grande{padding:29px 40px 32px 20px}}
+    
+@media(min-width:731px){
+    .card-curso{width:100%}
+    .card-curso.card-curso--grande{padding-right:30px}
+    .card-curso--grande .card-curso__carga{font-size:10px}
+    }
+    
+@media(min-width:800px){
+    .card-curso--grande .card-curso__carga{font-size:11px}
+    }
+    
+@media(min-width:960px){
+    .card-curso.card-curso--grande{padding-right:40px}
+    .card-curso__chamadas{margin:18px 0}
+    .card-curso__item:not(:first-of-type){margin-top:7px}
+    }
+    
+@media(min-width:1200px){
+    .card-curso{height:126px;padding:19px 20px 15px 20px}
+    .card-curso--grande{padding-right:80px}
+    .card-curso__nome{line-height:1.36}
+    }
